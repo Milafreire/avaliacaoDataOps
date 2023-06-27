@@ -1,0 +1,40 @@
+[{
+  "_id": null,
+  "Carros": [
+    {
+      "_id": {
+        "$oid": "649a3b43cacbc9bf731e3f4f"
+      },
+      "Carro": "Onix",
+      "Pais": "EUA"
+    },
+    {
+      "_id": {
+        "$oid": "649a3b43cacbc9bf731e3f50"
+      },
+      "Carro": "Polo",
+      "Pais": "Alemanha"
+    },
+    {
+      "_id": {
+        "$oid": "649a3b43cacbc9bf731e3f51"
+      },
+      "Carro": "Sandero",
+      "Pais": "França"
+    },
+    {
+      "_id": {
+        "$oid": "649a3b43cacbc9bf731e3f52"
+      },
+      "Carro": "Fiesta",
+      "Pais": "EUA"
+    },
+    {
+      "_id": {
+        "$oid": "649a3b43cacbc9bf731e3f53"
+      },
+      "Carro": "City",
+      "Pais": "Japão"
+    }
+  ]
+}]

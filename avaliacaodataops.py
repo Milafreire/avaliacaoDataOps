@@ -45,10 +45,15 @@ pipeline = [
     },
     {
         '$project': {
-            'Carro': 1,
-            'Cor': 1,
-            'Montadora': 1,
-            'Pais': '$montadora_info.Pais'
+	        'Carro': 1,
+            'Pais': '$Montadora_info.Pais'
+        }
+    },
+    {
+        '$group': { 
+            '_id': '$Montadora_info.Pais',
+            'Carros': {'$push': '$$ROOT' }
+        
         }
     }
 ]
